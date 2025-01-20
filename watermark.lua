@@ -94,8 +94,6 @@ local twen = TS:Create(LoadFrame, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.E
 	twen2.Completed:Wait()
 	LoadFrame.ImageLabel.Visible = false
 
-	task.wait(1)
-	dootdoot.Image = getcustomasset("skele5555.png")
 	task.wait(2)
 
 	local t_twen = TS:Create(LoadFrame, TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = UDim2.fromScale(0.5,0.65), BackgroundTransparency = 1})
